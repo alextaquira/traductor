@@ -1,0 +1,280 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Android</title>
+
+    <!-- Page styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+   <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.teal-cyan.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+    </style>
+  </head>
+  <body>
+
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+            <img class="android-logo-image" src="images/android-logo.png">
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field">
+            </div>
+          </div>
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Phones</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Tablets</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Wear</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">TV</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Auto</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">One</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Play</a>
+            </nav>
+          </div>
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/android-logo.png">
+          </span>
+          <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
+            <i class="material-icons">more_vert</i>
+          </button>
+          <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="more-button">
+            <li class="mdl-menu__item">5.0 Lollipop</li>
+            <li class="mdl-menu__item">4.4 KitKat</li>
+            <li disabled class="mdl-menu__item">4.3 Jelly Bean</li>
+            <li class="mdl-menu__item">Android History</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="android-drawer mdl-layout__drawer">
+        <span class="mdl-layout-title">
+          <img class="android-logo-image" src="images/android-logo-white.png">
+        </span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">Phones</a>
+          <a class="mdl-navigation__link" href="">Tablets</a>
+          <a class="mdl-navigation__link" href="">Wear</a>
+          <a class="mdl-navigation__link" href="">TV</a>
+          <a class="mdl-navigation__link" href="">Auto</a>
+          <a class="mdl-navigation__link" href="">One</a>
+          <a class="mdl-navigation__link" href="">Play</a>
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Versions</span>
+          <a class="mdl-navigation__link" href="">Lollipop 5.0</a>
+          <a class="mdl-navigation__link" href="">KitKat 4.4</a>
+          <a class="mdl-navigation__link" href="">Jelly Bean 4.3</a>
+          <a class="mdl-navigation__link" href="">Android history</a>
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">Resources</span>
+          <a class="mdl-navigation__link" href="">Official blog</a>
+          <a class="mdl-navigation__link" href="">Android on Google+</a>
+          <a class="mdl-navigation__link" href="">Android on Twitter</a>
+          <div class="android-drawer-separator"></div>
+          <span class="mdl-navigation__link" href="">For developers</span>
+          <a class="mdl-navigation__link" href="">App developer resources</a>
+          <a class="mdl-navigation__link" href="">Android Open Source Project</a>
+          <a class="mdl-navigation__link" href="">Android SDK</a>
+        </nav>
+      </div>
+
+
+      <div class="android-content mdl-layout__content">
+        <a name="top"></a>
+       <div class="mdl-grid portfolio-max-width">
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images2/example-work01.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Manzana = nimamixku’</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Fruto del manzano, comestible, de forma redondeada y algo hundida por los extremos, piel fina, de color verde, amarillo o rojo, carne blanca y jugosa, de sabor dulce o ácido, y semillas en forma de pepitas encerradas en una cápsula de cinco divisiones.
+                    </div>
+                    
+                </div>
+                      <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images2/example-work07.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Banano = saq’ul</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Planta tropical de tallo muy alto, sin ramificaciones, hojas dispuestas en forma de espiral que constituyen un haz apical, provistas de pecíolo corto y grandes láminas oblongas, con fuerte nerviación central, flores amarillas y fruto (banana o banano) comestible y sin semilla; puede alcanzar hasta 9 m de altura.
+                    </div>
+                   
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images2/example-work02.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Mango = q’anatz’ub’</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Mango, también conocido como "melocotón de los trópicos", es una de las frutas más importantes de la familia de las Anacardiáceas y pertenecen al género Mangifera. Es considerado como uno de los principales frutos tropicales y más finos que existen.
+                    </div>
+                   
+                </div>
+                 <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images2/example-work03.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Cereza = k’oxk’ob’äl</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                       Fruto del cerezo, pequeño y redondeado, de color rojo oscuro, pulpa dulce y jugosa y un hueso en su interior.
+                    </div>
+                    
+                </div>
+                 <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images2/example-work04.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Coco = wachxan</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Fruto del cocotero, de forma casi redonda, corteza muy dura, semilla de carne blanca de sabor agradable y con un líquido dulce en el interior.
+                    </div>
+                    
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images2/example-work08.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Papaya = kaqrab’</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Fruto del papayo, comestible, de forma alargada, pulpa semejante a la del melón, de color naranja y con muchas semillas en su interior.
+                    </div>
+                    
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images2/example-work05.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Limón = limonix</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                       Fruto del limonero, comestible, de forma ovalada, piel de color amarillo o verde y pulpa dividida en gajos, de sabor ácido y muy aromático.
+                    </div>
+                    
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images2/example-work06.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Naranja = aranxäx</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Fruto del naranjo, comestible, de forma redonda, cáscara gruesa y rugosa y pulpa dividida en gajos, agridulce y muy jugosa.
+                    </div>
+                    
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images2/example-work09.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Melón = q’anaq’oq’</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Fruto de esta planta, comestible, de gran tamaño y forma ovalada, corteza lisa o surcada, verde o amarilla y pulpa muy jugosa, de sabor dulce y color amarillento o anaranjado.
+                    </div>
+                    
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images2/1.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Nance = tapa’l</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Planta arbustiva de hojas elípticas, flores pequeñas de color amarillo y fruto comestible pequeño, globoso y de este mismo color.
+                    </div>
+                   
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images2/2.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Anona = päk</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Annona squamosa, llamado comúnmente anón, riñón, anona, o saramuyo, es un frutal perteneciente al género Annona, de la familia Annonaceae.
+                    </div>
+                   
+                </div>
+                <div class="mdl-cell mdl-card mdl-shadow--4dp portfolio-card">
+                    <div class="mdl-card__media">
+                        <img class="article-image" src=" images2/ann.jpg" border="0" alt="">
+                    </div>
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text">Durazno = tur’as</h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+                        Fruto del melocotonero. Es una frupa de olor agradable, esférica, de seis a ocho centímetros de diámetro, con un surco profundo que ocupa media circunferencia, epicarpio delgado, velloso, de color amarillo con manchas encarnadas, mesocarpio amarillento, de sabor agradable.
+                    </div>
+                   
+                </div>
+
+            </div>
+       
+
+        </footer>
+      </div>
+    </div>
+   
+    <script src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+  </body>
+</html>
